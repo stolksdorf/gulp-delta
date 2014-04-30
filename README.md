@@ -13,6 +13,10 @@ var name = require('vinyl-source-stream');
 var uglify = require('gulp-uglify');
 var browersify = require('browserify');
 
+var livereload = require('gulp-livereload')
+var lr_server = require('tiny-lr')();
+
+//Will only trigger live-reload and file writing if there has been code changes
 gulp.task('js', function () {
 	browserify('./src/app.js')
 		.bundle()
