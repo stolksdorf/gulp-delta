@@ -1,6 +1,6 @@
 {
   "name": "gulp-delta",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Only pass through changed files by comparing buffer contents",
   "license": "MIT",
   "repository": {

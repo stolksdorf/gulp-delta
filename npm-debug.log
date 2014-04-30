@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.6
+3 info using node@v0.10.25
+4 verbose node symlink /usr/local/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/scott.tolksdorf/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/tmp.tgz
+13 verbose folder .
+14 info prepublish gulp-delta@0.1.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /Users/scott.tolksdorf/.npm/1f1177db-tar.lock
+17 silly lockFile 43a4dbac-73804-0-7295812349766493-tmp-tgz tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/tmp.tgz
+18 verbose lock tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/tmp.tgz /Users/scott.tolksdorf/.npm/43a4dbac-73804-0-7295812349766493-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 43a4dbac-73804-0-7295812349766493-tmp-tgz tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/tmp.tgz
+22 silly lockFile 43a4dbac-73804-0-7295812349766493-tmp-tgz tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/tmp.tgz
+23 verbose tar unpack /var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/tmp.tgz
+24 silly lockFile 01ac9bfe-73804-0-7295812349766493-package tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/package
+25 verbose lock tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/package /Users/scott.tolksdorf/.npm/01ac9bfe-73804-0-7295812349766493-package.lock
+26 silly lockFile 43a4dbac-73804-0-7295812349766493-tmp-tgz tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/tmp.tgz
+27 verbose lock tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/tmp.tgz /Users/scott.tolksdorf/.npm/43a4dbac-73804-0-7295812349766493-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm extractEntry index.js
+31 silly gunzTarPerm extractEntry readme.md
+32 silly lockFile 01ac9bfe-73804-0-7295812349766493-package tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/package
+33 silly lockFile 01ac9bfe-73804-0-7295812349766493-package tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/package
+34 silly lockFile 43a4dbac-73804-0-7295812349766493-tmp-tgz tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/tmp.tgz
+35 silly lockFile 43a4dbac-73804-0-7295812349766493-tmp-tgz tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/tmp.tgz
+36 verbose tar pack [ '/Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package.tgz',
+36 verbose tar pack   '/var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/package' ]
+37 verbose tarball /Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package.tgz
+38 verbose folder /var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/package
+39 silly lockFile 01ac9bfe-73804-0-7295812349766493-package tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/package
+40 verbose lock tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/package /Users/scott.tolksdorf/.npm/01ac9bfe-73804-0-7295812349766493-package.lock
+41 silly lockFile 7f661482-npm-gulp-delta-0-1-0-package-tgz tar:///Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package.tgz
+42 verbose lock tar:///Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package.tgz /Users/scott.tolksdorf/.npm/7f661482-npm-gulp-delta-0-1-0-package-tgz.lock
+43 silly lockFile 01ac9bfe-73804-0-7295812349766493-package tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/package
+44 silly lockFile 01ac9bfe-73804-0-7295812349766493-package tar:///var/folders/rg/tzh9l0_523v_3bk900cfp5fr0000gp/T/npm-8157-ny3Fhyj6/1398879373804-0.7295812349766493/package
+45 silly lockFile 7f661482-npm-gulp-delta-0-1-0-package-tgz tar:///Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package.tgz
+46 silly lockFile 7f661482-npm-gulp-delta-0-1-0-package-tgz tar:///Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package.tgz
+47 silly lockFile 87aaebba-orf-npm-gulp-delta-0-1-0-package /Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package
+48 verbose lock /Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package /Users/scott.tolksdorf/.npm/87aaebba-orf-npm-gulp-delta-0-1-0-package.lock
+49 silly lockFile 87aaebba-orf-npm-gulp-delta-0-1-0-package /Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package
+50 silly lockFile 87aaebba-orf-npm-gulp-delta-0-1-0-package /Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package
+51 verbose tar unpack /Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package.tgz
+52 silly lockFile 9f94261a-orf-npm-gulp-delta-0-1-0-package tar:///Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package
+53 verbose lock tar:///Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package /Users/scott.tolksdorf/.npm/9f94261a-orf-npm-gulp-delta-0-1-0-package.lock
+54 silly lockFile 7f661482-npm-gulp-delta-0-1-0-package-tgz tar:///Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package.tgz
+55 verbose lock tar:///Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package.tgz /Users/scott.tolksdorf/.npm/7f661482-npm-gulp-delta-0-1-0-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry index.js
+59 silly gunzTarPerm extractEntry readme.md
+60 silly lockFile 9f94261a-orf-npm-gulp-delta-0-1-0-package tar:///Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package
+61 silly lockFile 9f94261a-orf-npm-gulp-delta-0-1-0-package tar:///Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package
+62 silly lockFile 7f661482-npm-gulp-delta-0-1-0-package-tgz tar:///Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package.tgz
+63 silly lockFile 7f661482-npm-gulp-delta-0-1-0-package-tgz tar:///Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package.tgz
+64 verbose chmod /Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package.tgz 644
+65 verbose chown /Users/scott.tolksdorf/.npm/gulp-delta/0.1.0/package.tgz [ 502, 20 ]
+66 silly lockFile 3a52ce78- .
+67 silly lockFile 3a52ce78- .
+68 silly publish { name: 'gulp-delta',
+68 silly publish   version: '0.1.0',
+68 silly publish   description: 'Only pass through changed files by comparing buffer contents',
+68 silly publish   license: 'MIT',
+68 silly publish   repository: { type: 'git', url: 'git://github.com/stolksdorf/gulp-delta' },
+68 silly publish   author:
+68 silly publish    { name: 'Scott Tolksdorf',
+68 silly publish      email: 'scott.tolksdorf@gmail.com',
+68 silly publish      url: 'https://github.com/stolksdorf' },
+68 silly publish   engines: { node: '>=0.10.0' },
+68 silly publish   files: [ 'index.js' ],
+68 silly publish   keywords:
+68 silly publish    [ 'gulpplugin',
+68 silly publish      'file',
+68 silly publish      'files',
+68 silly publish      'change',
+68 silly publish      'changed',
+68 silly publish      'delta',
+68 silly publish      'newer',
+68 silly publish      'modified',
+68 silly publish      'updated',
+68 silly publish      'buffer',
+68 silly publish      'contents',
+68 silly publish      'passthrough' ],
+68 silly publish   dependencies:
+68 silly publish    { 'gulp-util': '^2.2.0',
+68 silly publish      through2: '^0.4.0',
+68 silly publish      'buffer-equal': '^0.0.0' },
+68 silly publish   bugs: { url: 'https://github.com/stolksdorf/gulp-delta/issues' },
+68 silly publish   homepage: 'https://github.com/stolksdorf/gulp-delta',
+68 silly publish   main: 'index.js',
+68 silly publish   devDependencies: {},
+68 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+68 silly publish   readme: '# [gulp](http://gulpjs.com)-delta\n\n> Only pass through delta filesby comparing buffer contents\n\nBased off of [sindresorhus\'s](https://www.npmjs.org/~sindresorhus) [gulp-delta](https://www.npmjs.org/package/gulp-delta). Compares streams based on buffer contents incase the source of the stream was not a file.\n\n## Usage\n\n```javascript\nvar gulp = require(\'gulp\');\nvar delta = require(\'gulp-delta\');\nvar name = require(\'vinyl-source-stream\');\nvar uglify = require(\'gulp-uglify\');\nvar browersify = require(\'browserify\');\n\nvar livereload = require(\'gulp-livereload\')\nvar lr_server = require(\'tiny-lr\')();\n\n//Will only trigger live-reload and file writing if there has been code changes\ngulp.task(\'js\', function () {\n\tbrowserify(\'./src/app.js\')\n\t\t.bundle()\n\t\t.pipe(name(\'bundle.js\'))\n\t\t.pipe(uglify())\n\t\t.pipe(delta(\'./prod\'))\n\t\t.pipe(gulp.dest(\'./prod\'))\n\t\t.pipe(livereload(lr_server));\n});\n```\n',
+68 silly publish   readmeFilename: 'readme.md',
+68 silly publish   _id: 'gulp-delta@0.1.0',
+68 silly publish   dist: { shasum: '1a5ce69187b6b41d91e823da08a6d848812a1c49' },
+68 silly publish   _from: '.' }
+69 verbose url raw gulp-delta
+70 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-delta' ]
+71 verbose url resolved https://registry.npmjs.org/gulp-delta
+72 info trying registry request attempt 1 at 13:36:13
+73 http PUT https://registry.npmjs.org/gulp-delta
+74 http 403 https://registry.npmjs.org/gulp-delta
+75 error publish Failed PUT 403
+76 error Error: forbidden cannot modify pre-existing version: 0.1.0
+76 error old={"name":"gulp-delta","version":"0.1.0","description":"Only pass through changed files by comparing buffer contents","license":"MIT","repository":{"type":"git","url":"git://github.com/stolksdorf/gulp-delta"},"author":{"name":"Scott Tolksdorf","email":"scott.tolksdorf@gmail.com","url":"https://github.com/stolksdorf"},"engines":{"node":">=0.10.0"},"files":["index.js"],"keywords":["gulpplugin","file","files","changed","delta","newer","modified","modification","updated","time","mtime","stat","cache","cached","buffer","contents","passthrough"],"dependencies":{"gulp-util":"^2.2.0","through2":"^0.4.0","buffer-equal":"^0.0.0"},"bugs":{"url":"https://github.com/stolksdorf/gulp-delta/issues"},"homepage":"https://github.com/stolksdorf/gulp-delta","main":"index.js","devDependencies":{},"scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"_id":"gulp-delta@0.1.0","dist":{"shasum":"55fadb7c1923a862281cfa33f18e70d18c04b0a9","tarball":"http://registry.npmjs.org/gulp-delta/-/gulp-delta-0.1.0.tgz"},"_from":".","_npmVersion":"1.4.6","_npmUser":{"name":"stolksdorf","email":"scott.tolksdorf@gmail.com"},"maintainers":[{"name":"stolksdorf","email":"scott.tolksdorf@gmail.com"}]}
+76 error new={"name":"gulp-delta","version":"0.1.0","description":"Only pass through changed files by comparing buffer contents","license":"MIT","repository":{"type":"git","url":"git://github.com/stolksdorf/gulp-delta"},"author":{"name":"Scott Tolksdorf","email":"scott.tolksdorf@gmail.com","url":"https://github.com/stolksdorf"},"engines":{"node":">=0.10.0"},"files":["index.js"],"keywords":["gulpplugin","file","files","change","changed","delta","newer","modified","updated","buffer","contents","passthrough"],"dependencies":{"gulp-util":"^2.2.0","through2":"^0.4.0","buffer-equal":"^0.0.0"},"bugs":{"url":"https://github.com/stolksdorf/gulp-delta/issues"},"homepage":"https://github.com/stolksdorf/gulp-delta","main":"index.js","devDependencies":{},"scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"readme":"# [gulp](http://gulpjs.com)-delta\u000a\u000a> Only pass through delta filesby comparing buffer contents\u000a\u000aBased off of [sindresorhus's](https://www.npmjs.org/~sindresorhus) [gulp-delta](https://www.npmjs.org/package/gulp-delta). Compares streams based on buffer contents incase the source of the stream was not a file.\u000a\u000a## Usage\u000a\u000a```javascript\u000avar gulp = require('gulp');\u000avar delta = require('gulp-delta');\u000avar name = require('vinyl-source-stream');\u000avar uglify = require('gulp-uglify');\u000avar browersify = require('browserify');\u000a\u000avar livereload = require('gulp-livereload')\u000avar lr_server = require('tiny-lr')();\u000a\u000a//Will only trigger live-reload and file writing if there has been code changes\u000agulp.task('js', function () {\u000a\u0009browserify('./src/app.js')\u000a\u0009\u0009.bundle()\u000a\u0009\u0009.pipe(name('bundle.js'))\u000a\u0009\u0009.pipe(uglify())\u000a\u0009\u0009.pipe(delta('./prod'))\u000a\u0009\u0009.pipe(gulp.dest('./prod'))\u000a\u0009\u0009.pipe(livereload(lr_server));\u000a});\u000a```\u000a","readmeFilename":"readme.md","_id":"gulp-delta@0.1.0","dist":{"shasum":"1a5ce69187b6b41d91e823da08a6d848812a1c49","tarball":"http://registry.npmjs.org/gulp-delta/-/gulp-delta-0.1.0.tgz"},"_from":".","_npmVersion":"1.4.6","_npmUser":{"name":"stolksdorf","email":"scott.tolksdorf@gmail.com"},"maintainers":[{"name":"stolksdorf","email":"scott.tolksdorf@gmail.com"}]}: gulp-delta
+76 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:254:14)
+76 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:192:65)
+76 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+76 error     at Request.EventEmitter.emit (events.js:98:17)
+76 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+76 error     at Request.EventEmitter.emit (events.js:117:20)
+76 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+76 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+76 error     at _stream_readable.js:920:16
+76 error     at process._tickCallback (node.js:415:13)
+77 error If you need help, you may report this *entire* log,
+77 error including the npm and node versions, at:
+77 error     <http://github.com/npm/npm/issues>
+78 error System Darwin 13.1.0
+79 error command "node" "/usr/local/bin/npm" "publish"
+80 error cwd /Users/scott.tolksdorf/Dropbox/root/Programming/Javascript/gulp-delta
+81 error node -v v0.10.25
+82 error npm -v 1.4.6
+83 verbose exit [ 1, true ]
