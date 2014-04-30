@@ -7,11 +7,7 @@
     "type": "git",
     "url": "git://github.com/stolksdorf/gulp-delta"
   },
-  "author": {
-    "name": "Scott Tolksdorf",
-    "email": "scott.tolksdorf@gmail.com",
-    "url": "https://github.com/stolksdorf"
-  },
+  "author": "Scott Tolksdorf <scott.tolksdorf@gmail.com> (https://github.com/stolksdorf)",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -40,12 +36,15 @@
   "dependencies": {
     "gulp-util": "^2.2.0",
     "through2": "^0.4.0",
-    "buffer-equal":"^0.0.0"
+    "buffer-equal": "^0.0.0"
   },
-  "readmeFilename": "readme.md",
   "bugs": {
     "url": "https://github.com/stolksdorf/gulp-delta/issues"
   },
   "homepage": "https://github.com/stolksdorf/gulp-delta",
-  "_id": "gulp-delta@0.1.0"
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
