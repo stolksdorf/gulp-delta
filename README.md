@@ -2,7 +2,7 @@
 
 > Only pass through delta filesby comparing buffer contents
 
-Based off of [sindresorhus's](https://www.npmjs.org/~sindresorhus) [gulp-delta](https://www.npmjs.org/package/gulp-delta). Compares streams based on buffer contents incase the source of the stream was not a file.
+Based off of [sindresorhus's](https://www.npmjs.org/~sindresorhus) [gulp-changed](https://www.npmjs.org/package/gulp-changed). Compares streams based on buffer contents incase the source of the stream was not a file.
 
 ## Usage
 
